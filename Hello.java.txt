@@ -1,0 +1,5 @@
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("我的 Java 代码成功上传到 GitHub 啦！");
+    }
+}
