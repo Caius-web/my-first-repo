@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的第一个GitHub网站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        .card {
+            background: rgba(255,255,255,0.2);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🎉 我的第一个GitHub网站！</h1>
+        <p>Hello World！这是我用GitHub Pages创建的网站</p>
+        <p>今天日期: <span id="date"></span></p>
+        <p>✨ 从本地推送到GitHub，自动变成网站 ✨</p>
+    </div>
+    <script>
+        document.getElementById("date").innerHTML = new Date().toLocaleDateString("zh-CN");
+    </script>
+</body>
+</html>
