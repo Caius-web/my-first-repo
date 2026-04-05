@@ -53,9 +53,18 @@
 </head>
 <body>
     <header>
-        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        <p>{{ site.description }}</p>
-    </header>
+    <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+        <h1 style="margin: 0; display: inline-block;">
+            <a href="{{ '/' | relative_url }}" style="color: white; text-decoration: none;">Dylan's Blog</a>
+        </h1>
+        <nav style="float: right;">
+            <a href="{{ '/' | relative_url }}" style="color: white; text-decoration: none; margin-left: 20px;">首页</a>
+            <a href="{{ '/about' | relative_url }}" style="color: white; text-decoration: none; margin-left: 20px;">About Me</a>
+        </nav>
+        <div style="clear: both;"></div>
+    </div>
+    <p style="margin-top: 20px;">探索科技和艺术的十字路口~</p>
+</header>
 
     <div class="wrapper">
         <div class="content">
